@@ -1,0 +1,120 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2b2d42;
+    color: #edf2f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: #edf2f4;
+    background-color: #3a506b;
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+
+form {
+    background-color: #3a506b;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #edf2f4;
+    color: #2b2d42;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: #4e73a0;
+    color: #edf2f4;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #2b2d42;
+}
+
+
+a.btn, .btn, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn8, .btn9, .btn10 {
+    text-align: center;
+    color: #edf2f4;
+    background-color: #3a506b;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 100%;
+    transition: background-color 0.3s ease;
+}
+
+a.btn:hover, .btn:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover, .btn6:hover, .btn7:hover, .btn8:hover, .btn9:hover, .btn10:hover {
+    background-color: #4e73a0;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #3a506b;
+    color: #edf2f4;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+td {
+    background-color: #2b2d42;
+    color: #edf2f4;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container img {
+    max-width: 20%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #edf2f4;
+}
+
+
+.btn:hover, .btn2:hover {
+    background-color: #6d8aad;
+}
+

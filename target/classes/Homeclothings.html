@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homeclothings</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="Homeclothings.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu container">
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="img/Logo.png" class="menu-icono" alt="Menu">
+            </label>
+
+            <nav class="navbar">
+                <div id="inicio" class="menu-1">
+                    <ul>
+                        <li><a href="Homeclothings">Inicio</a></li>
+                        <li><a href="#Productos">Productos</a></li>
+                        <li><a href="Compra">Mis compras</a></li>
+                    </ul>
+                </div>
+
+                <img class="logo-2" src="img/Logo.png"
+                    alt="Logo">
+                
+                 <a href="Inicio" class="btn-5">Salir</a>
+                 <a href="PerfilUsuario" class="btn-5">Perfil</a>
+                 
+               
+            </nav>
+        </div>
+        
+       <div class="header-content container">
+
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <video autoplay="" muted="" loop="" id="video">
+                              <source src="Videos/moda.mp4" type="video/mp4">        
+                            </video>
+                            <div class="slider-txt">
+                                <h1>Bienvenido</h1>
+                                <h1>a</h1>
+                                <h1>Homeclothings</h1>
+                                <br>
+                                <br>
+                                <p>
+                                    "Un software donde la ropa y la moda no te abandonan"
+                                </p>
+                                <br>
+                                <div class="botones">
+                                    <a href="#Productos" class="btn-1">comprar</a>                               
+                                </div>
+
+                            </div>
+                          
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Camisa blanca
+                                    </h1><h1>de</h1><h1>
+                                            </h1><h1>shanghai</h1>
+                                            <br>
+                                            <p>
+                                                70.000 COP
+                                            </p>
+                                            <div class="botones">
+                                                <a href="DetallesProducto?id=1" class="btn-z">Mas información</a>
+                                            </div>
+
+                            </div>
+                            <div class="slider-img-z">
+                                <img src="img/camiseta-manga-corta-de-shanghai.webp" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Pantalon Verde</h1>
+                                <br>
+                                <p>
+                                    51.000 COP
+                                </p>
+                                <div class="botones">
+                                    <a href="DetallesProducto?id=6" class="btn-111">Mas información</a>
+                                </div>
+
+                            </div>
+                            <div class="slider-img-zz">
+                                <img src="img/D_NQ_NP_907529-MCO71443423401_092023-O.webp" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <br>
+                <br>
+                <div class="swiper-pagination"></div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+    </header>
+
+    <main class="products">
+    <div class="tabs container">
+    
+        <div id="Productos" class="Titulo">
+            <h1>Productos</h1>
+        </div>
+        
+        <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+        <label for="tab1" id="productos">Camisas</label>
+        <div class="tab">
+            <div class="swiper mySwiper-2" id="swiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="product1">
+                            <div class="product-img1">
+                                <h4>Nuevo</h4>
+                                <img src="img/camiseta-manga-corta-de-shanghai-Photoroom.png-Photoroom.png" alt="">
+                            </div>
+                            <div class="product-txt1">
+                                <h4>Camisa blanca de Shanghai</h4>
+                                <p>Calidad premium</p>
+                                <span class="price">$70.000 COP</span>
+                                <a href="DetallesProducto?id=1" class="Comprar">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product2">
+                            <div class="product-img2">
+                                <h4>Nuevo</h4>
+                                <img src="img/camiseta-oversize-manga-corta-de-denmark-Photoroom.png-Photoroom.png" alt="">
+                            </div>
+                            <div class="product-txt2">
+                                <h4>Camisa negra de Denmark</h4>
+                                <p>Calidad especial</p>
+                                <span class="price">$51,000 COP</span>
+                                <a href="DetallesProducto?id=2" class="Comprar">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product3">
+                            <div class="product-img3">
+                                <img src="img/D_NQ_NP_634180-MCO43830146847_102020-O-Photoroom.png-Photoroom.png" alt="">
+                            </div>
+                            <div class="product-txt3">
+                                <h4>Camisa azul formal</h4>
+                                <p>Calidad especial</p>
+                                <span class="price">$80,000 COP</span>
+                                <a href="DetallesProducto?id=3" class="Comprar">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product4">
+                            <div class="product-img4">
+                                <h4>Nuevo</h4>
+                                <img src="img/D_NQ_NP_937986-MCO54647998671_032023-O-Photoroom.png-Photoroom.png" alt="">
+                            </div>
+                            <div class="product-txt4">
+                                <h4>Camisa negra formal</h4>
+                                <p>Calidad premium</p>
+                                <span class="price">$43,000 COP</span>
+                                <a href="DetallesProducto?id=4" class="Comprar">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        
+   
+        <input type="radio" name="tabs" id="tab2" class="tabInput" value="2">
+        <label for="tab2">Pantalones</label>
+        <div class="tab">
+            <div class="swiper mySwiper-2" id="swiper-2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="product5">
+                            <div class="product-img5">
+                                <img src="img/D_NQ_NP_891732-CBT69902071115_062023-O-Photoroom.png-Photoroom.png" alt="">
+                            </div>
+                            <div class="product-txt5">
+                                <h4>Jean bota campana</h4>
+                                <p>Calidad premium</p>
+                                <span class="price">$75,000 COP</span>
+                                <a href="DetallesProducto?id=5" class="Comprar">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product6">
+                            <div class="product-img6">
+                                <h4>Nuevo</h4>
+                                <img src="img/D_NQ_NP_907529-MCO71443423401_092023-O-Photoroom.png-Photoroom.png" alt="">
+                            </div>
+                            <div class="product-txt6">
+                                <h4>Pantalón de sudadera verde</h4>
+                                <p>Calidad especial</p>
+                                <span class="price">$51,000 COP</span>
+                                <a href="DetallesProducto?id=6" class="Comprar">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product7">
+                            <div class="product-img7">
+                                <h4>Nuevo</h4>
+                                <img src="img/D_NQ_NP_934178-CBT75412211685_032024-O-Photoroom.png-Photoroom.png" alt="">
+                            </div>
+                            <div class="product-txt7">
+                                <h4>Pantalón formal amarillo</h4>
+                                <p>Calidad premium</p>
+                                <span class="price">$85,000 COP</span>
+                                <a href="DetallesProducto?id=7" class="Comprar">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product8">
+                            <div class="product-img8">
+                                <h4>Nuevo</h4>
+                                <img src="img/D_NQ_NP_997287-MCO72699497680_112023-O-Photoroom.png-Photoroom.png" alt="">
+                            </div>
+                            <div class="product-txt8">
+                                <h4>Pantalón de playa blanco</h4>
+                                <p>Calidad especial</p>
+                                <span class="price">$45,000 COP</span>
+                                <a href="DetallesProducto?id=8" class="Comprar">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+
+      
+        <input type="radio" name="tabs" id="tab3" class="tabInput" value="3">
+        <label for="tab3">Otros</label>
+        <div class="tab">
+            <div class="swiper mySwiper-2" id="swiper-3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="product9">
+                            <div class="product-img9">
+                                <h4>Agotado</h4>
+                                <img src="img/D_NQ_NP_851771-CBT53995103774_022023-O-Photoroom.png-Photoroom.png" alt="">
+                            </div>
+                            <div class="product-txt9">
+                                <h4>Camiseta de cuadros azul</h4>
+                                <p>Calidad premium</p>
+                                <span class="price">$32,000 COP</span>
+                                <a href="DetallesProducto?id=9" class="Comprar">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product10">
+                            <div class="product-img10">
+                                <h4>Nuevo</h4>
+                                <img src="img/D_NQ_NP_851445-MCO70961868737_082023-O-Photoroom.png-Photoroom.png" alt="">
+                            </div>
+                            <div class="product-txt10">
+                                <h4>Camibuso gris</h4>
+                                <p>Calidad especial</p>
+                                <span class="price">$42,000 COP</span>
+                                <a href="DetallesProducto?id=10" class="Comprar">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product11">
+                            <div class="product-img11">
+                                <h4>Nuevo</h4>
+                                <img src="img/D_NQ_NP_675216-MCO47068264517_082021-O-Photoroom.png-Photoroom.png" alt="">
+                            </div>
+                            <div class="product-txt11">
+                                <h4>Chaqueta ovejero impermeable</h4>
+                                <p>Calidad premium</p>
+                                <span class="price">$120,000 COP</span>
+                                <a href="DetallesProducto?id=11" class="Comprar">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product12">
+                            <div class="product-img12">
+                                <h4>Nuevo</h4>
+                                <img src="img/D_NQ_NP_783950-MCO69294314774_052023-O-Photoroom.png-Photoroom.png" alt="">
+                            </div>
+                            <div class="product-txt12">
+                                <h4>Chaqueta de cuero negra</h4>
+                                <p>Calidad especial</p>
+                                <span class="price">$200,000 COP</span>
+                                <a href="DetallesProducto?id=12" class="Comprar">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+    <section class="info container">
+
+        <div class="info-img">
+            <img src="img/icono-nosotros.png" alt="">
+        </div>
+
+        <div class="info-txt">
+            <h2>informacion</h2>
+            <p> HomeClothings es una tienda en línea surgida en 2024 y desarrollada por Adolfo Campos para mejorar la
+                calidad y las ventas de un comercio local ubicado en el centro de Bogotá.
+            </p>
+            <a href="Información_Homeclothings.html" class="btn-2">Mas informacion</a>
+        </div>
+
+    </section>
+
+    <section class="Horario">
+        <div class="horario-info container">
+
+            <h2>Horario</h2>
+            <div class="horario-txt">
+                <div class="txt">
+                    <h4>Direccion</h4>
+                    <p>
+                        calle 102 oeste 57#
+                    </p>
+                    <p>
+                        calle 75 norte 56#
+                    </p>
+                </div>
+                <div class="txt">
+                    <h4>Horario</h4>
+                    <p>
+                        Lunes a Viernes : 9 am - 8 pm </p>
+                    <p>
+                        sabado y Domingo : 12 am - 4 pm
+                    </p>
+                </div>
+                <div class="txt">
+                    <h4>Telefono</h4>
+                    <p>
+                        753459126 </p>
+                    <p>
+                        1511616126
+                    </p>
+                </div>
+                <div class="txt">
+                    <h4>Redes Sociales</h4>
+                    <div class="socials">
+                        <a href="#">
+                            <div class="social">
+                                <img src="img/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="img/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="img/s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <section>
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16257411.621053802!2d-85.00531783213225!3d5.842284965910166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e15a43aae1594a3%3A0x9a0d9a04eff2a340!2sColombia!5e0!3m2!1ses-419!2sco!4v1713127819761!5m2!1ses-419!2sco" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <footer class="footer container">
+
+        <img class="ImagenFinal" src="img/_acc73ffb-03aa-4e6b-adde-d245efba09b2-Photoroom.png-Photoroom.png" alt="">
+
+        
+        <div class="links">
+            <a href="Terminos y Condiciones.html">Términos y condiciones</a>
+        </div>
+
+        <div class="links">
+            <a href="Politica de Cookies.html">Política de cookies</a>
+        </div>
+
+        <div class="links">
+            <a href="Politica de Privacidad.html">Política de privacidad</a>
+        </div>
+
+
+        
+
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+
+
+</body></html>
